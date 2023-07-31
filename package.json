@@ -9,12 +9,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:2SmartCloud/2smart-standalone-extensions-manager-sdk.git"
+    "url": "git+ssh://git@github.com/2SmartCloud/2smart-standalone-extensions-manager-sdk.git"
   },
   "author": "WebbyLab",
-  "license": "ISC",
+  "license": "SEE LICENSE IN LICENSE.txt",
   "dependencies": {
-    "homie-sdk": "github:2SmartCloud/2smart-standalone-homie-sdk",
+    "homie-sdk": "^1.0.0",
     "isomorphic-fetch": "^2.2.1",
     "json-pointer": "^0.6.0",
     "livr": "^2.3.1",
@@ -33,5 +33,12 @@
     "eslint-plugin-prefer-spread": "^1.0.3",
     "eslint-plugin-react": "^7.20.3",
     "eslint-plugin-security": "^1.4.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/2SmartCloud/2smart-standalone-extensions-manager-sdk/issues"
+  },
+  "homepage": "https://github.com/2SmartCloud/2smart-standalone-extensions-manager-sdk#readme",
+  "keywords": [
+    "2smart"
+  ]
 }
